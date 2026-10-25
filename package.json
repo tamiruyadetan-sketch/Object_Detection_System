@@ -1,0 +1,10 @@
+{
+  "name": "ai-object-detection-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local YOLO image and video detection dashboard",
+  "scripts": {
+    "dev": ".\\.venv\\Scripts\\python.exe app.py",
+    "start": ".\\.venv\\Scripts\\python.exe app.py"
+  }
+}

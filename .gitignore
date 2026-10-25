@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+
+# Object detection data and generated results
+/dataset/
+/runs/
+/detected_image.png
+
+# Common tooling and OS files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
